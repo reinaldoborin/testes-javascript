@@ -1,0 +1,3 @@
+- Arquivo precisa ter: ID, NOME, PROFISSÃO e ANO DE ANIVERSÁRIO.
+- Arquivo não pode estar em branco.
+- Arquivo não pode ter 4 linhas ou mais.
