@@ -2,4 +2,5 @@
 
 Métodos de testes em Javascript.
 
-- [1] Mock (Sem uso de framework).
+- [1] Mocks (Sem uso de framework).
+- [2] Stubs ().
