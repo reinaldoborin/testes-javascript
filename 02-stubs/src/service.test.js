@@ -9,7 +9,7 @@ const mocks = {
     tatooine: require('../mocks/tatooine.json'),
 };
 
-(async ()=> {
+(async () => {
     // Realiza a chamada da URL via Web.
     // {
     //     const service = new Service();
@@ -25,22 +25,21 @@ const mocks = {
 
         {
             const expected = {
-                "name":"Alderaan",
-                "surface_water":"1",
+                "name": "Alderaan",
+                "surface_water": "1",
                 "appearedIn": 5
             }
-            const result = await service.getPlanets(BASE_URL_1)
-            deepStrictEqual(result, expected)
+            const result = await service.getPlanets(BASE_URL_1);
+            deepStrictEqual(result, expected);
         }
-
         {
             const expected = {
-                "name":"Alderaan",
-                "surface_water":"40",
+                "name": "Alderaan",
+                "surface_water": "40",
                 "appearedIn": 2
             }
-            const result = await service.getPlanets(BASE_URL_2)
-            deepStrictEqual(result, expected)
+            const result = await service.getPlanets(BASE_URL_2);
+            deepStrictEqual(result, expected);
         }
 
     }
